@@ -15,7 +15,9 @@ public class StringConcatinate {
 		int a = 300;
 		int b = 200;
 		
-		System.out.println("The value of a is "+ a);
+		String abc = "The value of a is ";
+		
+		System.out.println(abc + a);
 		System.out.println("The value of b is "+ b);
 		
 		
